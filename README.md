@@ -1,53 +1,100 @@
 # Product Manager
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+🚀 Certified Scrum Product Owner (CSPO) with 8+ years of experience and a Bachelor's Degree in Information Systems, I’m passionate about building innovative, user-first products that deliver real value. With a strong foundation in SaaS and E-commerce, I excel at transforming complex problems into seamless solutions that drive growth 📈 and enhance user experience 💡.
+
+During my time at Americanas S.A., I played a pivotal role as a Product Manager in one of Latin America's largest e-commerce platforms 🌎. I led key initiatives to improve the seller experience, introduced data-driven KPIs, and aligned product strategies with business objectives, ensuring every project hit the mark 🎯.
+
+🔍 What I Bring to the Table:
+
+- Agile Expertise: As a CSPO, I thrive in Agile environments, leveraging Scrum methodologies to streamline product development and foster collaboration 🤝.
+User-centric mindset: I believe great products start with understanding users. Through in-depth user research and feedback loops, I continuously iterate to meet evolving needs 👥.
+- Stakeholder Management: Skilled in aligning cross-functional teams and stakeholders, driving projects that are both innovative and efficient 🔄.
+- Data-Driven Decision Making: I use analytics and KPIs to guide product strategies, ensuring we stay on track and maximize impact 📊.
+
+Whether leading a product launch, optimizing an e-commerce funnel, or building scalable SaaS solutions, I’m all about creating experiences that delight users and deliver results. Let’s connect and explore how we can build something amazing together! 🧑‍🦰💡
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
+- B.S, Information Systems | Federal University of Santa Catarina (_Apr 2022_)
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+Principal Product Manager | Ernst and Young | Nov 2023 - Present | Dublin, Ireland
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Responsibilities:**
+- Led internal product initiatives based on regulations and on behalf of key stakeholders.
+- Managed the roadmap and initiatives related to assigned business outcomes.
+- Contributed strategic and commercial insights, evaluating product opportunities and initiatives.
+- Worked closely with business stakeholders, product, and engineering teams to ensure needs were met, protected, and issues resolved efficiently.
+- Aligned with the wider product team on plans, initiatives, insights, and changes across the division and group.
+- Researched and analyzed data to identify and validate opportunities and business requirements.
 
-## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+**Key Achievements:**
+- Streamlined processes within the BTA team, increasing efficiency by 15%.
+- Developed best practices for requirements gathering and documentation.
+- Created visually engaging diagrams that improved stakeholder understanding and decision-making.
+- Enhanced collaboration between business and technical teams, leading to more successful project outcomes.
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+Product Manager | Americanas S.A. | Oct 2021 - Aug 2023 | São Paulo, Brazil
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+**Responsibilities:**
+- Managed the full product lifecycle for Orders and Customer Registration & Acquisition teams.
+- Defined product vision, strategy, and roadmaps aligned with business goals.
+- Led a cross-functional product squad of 20 members.
+- Conducted in-depth analysis of customer pain points to create value-driven solutions.
+- Oversaw development and execution of go-to-market strategies, ensuring successful product launches.
+- Maintained and prioritized the product backlog, facilitated agile ceremonies.
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+**Key Achievements:**
+- Improved order tracking performance and usability, reducing customer service tickets by 30%.
+- Increased one-day registration completion rate from 4% to 9% within three months.
+- Enhanced full activation process efficiency by 10% within three months.
+- Successfully migrated the core product database, improving seller experience.
+- Contributed to the growth of the retailer base on the platform.
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+Product Manager | Bridge Lab | Sep 2020 - Sep 2021 | Florianópolis, Brazil
 
-![Bike Study](/assets/img/bike_study.jpeg)
+**Responsibilities:**
+- Managed development and implementation of national electronic public health records.
+- Led cross-functional teams, defined product vision, and executed strategies.
+- Acted as Product Owner for two SCRUM teams.
+- Collaborated with stakeholders to ensure alignment and cohesive integration.
+- Conducted detailed analyses of user pain points, executing product strategies to address challenges.
+- Developed go-to-market strategies for successful product launches.
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+**Key Achievements:**
+- Integrated with the National Health Data Network, improving public health response.
+- Improved system usability and accessibility, enhancing user satisfaction.
+- Streamlined health data management processes, increasing data accuracy by 20%.
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
+Product Owner | StormTech | Aug 2019 - Jun 2020 | Florianópolis, Brazil
+
+**Responsibilities:**
+- Created and led a cross-functional product team.
+- Implemented system documentation and agile Scrum methodologies.
+- Defined product requirements and business rules through detailed user cases.
+- Analyzed data using Scala and Firebase for actionable insights.
+
+**Key Achievements:**
+- Bootstrapped a design system, improving product visual identity, usability, and accessibility.
+
+Product Owner | Bridge Lab | Jun 2017 - Jul 2019 | Florianópolis, Brazil
+
+**Responsibilities:**
+- Maintained and upgraded existing systems to support business growth.
+- Designed new computer systems and frameworks.
+- Developed risk mitigation plans and collaborated with IT teams.
+
+**Key Achievements:**
+- Adapted systems to support gender identity policy in health units.
+- Implemented digital certificates for health professionals.
+
+#### Technical Skills:
+**Agile Methodologies**: - Scrum • Requirements Analysis • User Experience • Client Interviews • SQL • Jekyll • Jira • Metrics • Discovery • OKRs • Leadership • Verbal Communication • Sketching • Google Analytics • Product Launches • Prototyping • System Mapping • Testing Methodologies • Data-
+
+**Honorable Mention**  
+A study of metadata and data lakes  
 
 ## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
+- A study of metadata and data lakes (2022)
+- SURE: A Questionnaire and Scale Proposal to Assess the Usability of Smartphone Applications After Usability Test
 
-- [Data Science Blog](https://medium.com/@shawhin)
+
