@@ -960,3 +960,89 @@ photo about me
     color: #636a82;
 }
 
+
+
+
+
+
+/*===============================
+teste
+===============================*/
+
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Container Principal */
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Cabeçalho do Blog */
+.blog-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-header h1 {
+    color: #636a82;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.blog-header .subtitle {
+    color: #7d8597;
+    font-size: 1.2em;
+}
+
+/* Estilo das Postagens */
+.blog-post {
+    margin-bottom: 40px;
+}
+
+.post-title {
+    color: #007bff;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-add-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.about-add-list li {
+    margin-bottom: 10px;
+    color: #636a82; /* Cor mais suave */
+}
+
+.about-add-list strong {
+    font-weight: bold;
+    color: inherit; /* Mantém a cor do texto principal */
+}
+
+/* Rodapé do Blog */
+.blog-footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #7d8597;
+    margin-top: 20px;
+}
