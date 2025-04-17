@@ -961,10 +961,74 @@ photo about me
 }
 
 
+/*===============================
+recomendations
+===============================*/
 
-
-
-
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .recommendations-row {
+    max-width: 800px; /* Container mais largo para caber 2 blocos */
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .recommendation-block {
+    background-color: #fafafa;
+    border: 1px solid #d9c4f0;
+    border-left: 3px solid #a775d1;
+    border-radius: 8px;
+    padding: 12px;
+    flex: 1 1 45%; /* Dois blocos por linha (45% cada) */
+    max-width: calc(50% - 10px); /* Largura ajustada para o gap */
+    min-height: 150px; /* Altura reduzida */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .recommendation-text {
+    font-size: 13px; /* Texto um pouco menor */
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 8px; /* Espaço reduzido */
+    text-align: left;
+    flex-grow: 1;
+  }
+  
+  .recommendation-author {
+    font-size: 12px; /* Fonte menor para o autor */
+    color: #6b6b6b;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .recommendation-block {
+      flex: 1 1 100%; /* Blocos empilhados em mobile */
+      max-width: 100%;
+      min-height: 120px; /* Altura menor para mobile */
+    }
+    
+    .recommendations-row {
+      max-width: 400px; /* Container mais estreito em mobile */
+    }
+  }
 /*===============================
 teste
 ===============================*/
@@ -1046,3 +1110,5 @@ body {
     color: #7d8597;
     margin-top: 20px;
 }
+
+
