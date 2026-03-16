@@ -55,7 +55,7 @@ a,a:hover,a:active,a:focus {
 	padding:0;
 }
 h1,h2,h3,h4,h5,h6 { 
-	margin: 0;
+	margin: 20px 0 10px;
 	color:#43485c;
     font-size: 16px;
 	font-family: 'Poppins', sans-serif;
@@ -151,6 +151,11 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
 /*.nav li*/
+.nav-social > a{
+    padding: 35px 10px !important;
+    font-size: 18px !important;
+    line-height: 1;
+}
 
 
 /*.menu-ui-design*/
@@ -299,7 +304,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .single-about-txt p {
     font-size: 16px;
     color: #999fb3;
-    padding: 35px 0 43px;
+    padding: 20px 0 20px;
     /* border-bottom: 1px solid #999fb3; */ /* Removido para eliminar a linha */
 }
 
@@ -352,6 +357,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .single-about-img .row { 
     margin-bottom: 30px; /* (se for exclusivo desta página) */
   }
+.about-read-more {
+    display: inline-block;
+    margin-top: 10px;
+}
 /*-------------------------------------
         5.  Education
 --------------------------------------*/
@@ -391,6 +400,22 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     margin-bottom: 30px;
 }
 
+/* Equal-height layout for about/education columns */
+.education .row.equal-height,
+.about .row.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.education .row.equal-height > [class*="col-"],
+.about .row.equal-height > [class*="col-"] {
+    display: flex;
+}
+.education .achievement-box,
+.about .single-about-txt {
+    height: 100%;
+}
+
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
@@ -403,10 +428,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #e5ebf2;
     text-align: center; /* Centraliza o texto */
-    margin-bottom: 30px; /* Adiciona espaço abaixo do título */
+    margin-top: 10px;
+    margin-bottom: 40px; /* Mais espaço abaixo do título */
 }
 .single-progress-txt {
     display: flex;
@@ -965,70 +992,80 @@ photo about me
 recomendations
 ===============================*/
 
-body {
+.recomendations {
+    padding: 50px 0 80px;
     background-color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    padding: 20px;
-    margin: 0;
-  }
-  
-  .section-heading {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .recommendations-row {
-    max-width: 800px; /* Container mais largo para caber 2 blocos */
+}
+
+.recommendations-row {
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-  }
-  
-  .recommendation-block {
+}
+
+.recommendation-block {
     background-color: #fafafa;
-    border: 1px solid #d9c4f0;
-    border-left: 3px solid #a775d1;
-    border-radius: 8px;
-    padding: 12px;
-    flex: 1 1 45%; /* Dois blocos por linha (45% cada) */
-    max-width: calc(50% - 10px); /* Largura ajustada para o gap */
-    min-height: 150px; /* Altura reduzida */
+    border: 1px solid #e2d8f5;
+    border-radius: 10px;
+    padding: 20px 22px;
+    flex: 1 1 45%;
+    max-width: 440px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-  }
-  
-  .recommendation-text {
-    font-size: 13px; /* Texto um pouco menor */
-    line-height: 1.5;
-    color: #444;
-    margin-bottom: 8px; /* Espaço reduzido */
-    text-align: left;
-    flex-grow: 1;
-  }
-  
-  .recommendation-author {
-    font-size: 12px; /* Fonte menor para o autor */
-    color: #6b6b6b;
-    text-align: left;
-  }
-  
-  @media screen and (max-width: 768px) {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.recommendation-quote-icon {
+    color: #b636ff;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.recommendation-header {
+    margin-bottom: 8px;
+}
+
+.recommendation-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #43485c;
+}
+
+.recommendation-role {
+    font-size: 13px;
+    color: #777f95;
+    margin-top: 2px;
+}
+
+.recommendation-highlight {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a4f66;
+    margin: 10px 0 8px;
+}
+
+.recommendation-text {
+    font-size: 13px;
+    color: #555b70;
+    line-height: 1.6;
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 768px) {
     .recommendation-block {
-      flex: 1 1 100%; /* Blocos empilhados em mobile */
-      max-width: 100%;
-      min-height: 120px; /* Altura menor para mobile */
+        flex: 1 1 100%;
+        max-width: 100%;
     }
-    
+
     .recommendations-row {
-      max-width: 400px; /* Container mais estreito em mobile */
+        max-width: 100%;
+        padding: 0 15px;
     }
-  }
+}
 /*===============================
 teste
 ===============================*/
